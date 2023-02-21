@@ -14,7 +14,7 @@ public class studentcontroller {
 	private String newnameString;
 	@GetMapping("/")
 	public String homepage() {
-		return newnameString+" to Student List";
+		return newnameString+" to Student list";
 	}
 	
 	@GetMapping("/list")
